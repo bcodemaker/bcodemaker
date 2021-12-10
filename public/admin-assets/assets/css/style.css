@@ -1,0 +1,181 @@
+/*================================================================================
+	Item Name: Stack - Responsive Admin Theme
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+table#dataTableAjax{
+	width: 100%!important;
+}
+table#dataTableAjax tr td img {
+    max-width: 150px!important;
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+.profilePic button.dropify-clear {
+    display: none!important;
+}
+
+.profile-sidebar {
+    float: left;
+    width: 350px;
+    margin-right: 20px;
+}
+.profile-userpic {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.profile-userpic img {
+    margin: 0px auto;
+    width: 130px;
+    max-height: 130px;
+    padding: 3px;
+    border: 3px solid rgb(210, 214, 222);
+    border-radius: 50% 50% 50% 50%;
+}
+.profile-usertitle {
+    text-align: center;
+    margin-top: 5px;
+}
+.profile-usertitle-name {
+    font-size: 20px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #3a405b;
+}
+
+
+.list-group-unbordered .list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.list-group-unbordered > .list-group-item {
+    border-left: 0px none;
+    border-right: 0px none;
+    border-radius: 0px 0px 0px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.card-head {
+    border-radius: 2px 2px 0 0;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    /* text-transform: uppercase; */
+    color: #3a405b;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    min-height: 40px;
+}
+.card-head header {
+    display: inline-block;
+    padding: 11px 20px;
+    vertical-align: middle;
+    line-height: 17px;
+    font-size: 20px;
+}
+.card-body:last-child {
+    border-radius: 0 0 2px 2px;
+}
+.profile-desc {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.profile-desc-item {
+    text-align: left;
+    font-size: 14px;
+    color: #6f6d6d;
+    width: 100px;
+}
+.card-topline-aqua {
+    border-top: 3px solid #00C0EF;
+}
+.customtab.nav-tabs .nav-link.active, .customtab.nav-tabs .nav-link.active:focus {
+    border-bottom: 0px solid #36c6d3;
+    background-color: rgb(102, 115, 252) !important;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2), 0 13px 24px -11px rgb(102, 115, 252);
+    color: #fff;
+}
+#biography {
+    padding: 0 20px;
+}
+#biography .nav-pills, #biography .nav-tabs {
+    margin-bottom: 10px;
+}
+.select2{
+    width: 100%!important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin-bottom: 8px !important;
+    margin-top: 8px !important;
+}
+select[readonly].select2-hidden-accessible + .select2-container {
+    pointer-events: none;
+    touch-action: none;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection {
+    background: #eee;
+    box-shadow: none;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection__arrow, select[readonly].select2-hidden-accessible + .select2-container .select2-selection__clear {
+    display: none;
+}
+
+.navbar-brand, .navbar-brand img{
+    float: left;
+}
+
+.navbar-brand h3.brand-text{
+    float: left;
+    max-height: 35px;
+    margin: 0;
+    display: grid!important;
+}
+.menu-collapsed .navbar-brand h3.brand-text{display: none!important}
+
+.navbar-brand h3.brand-text span.site_desc {
+    font-size: 10px;
+    top: -14px;
+    line-height: 2px;
+}
+
+#dataTableAjax th,#dataTableAjax td{
+    font-size: 13px!important;
+    padding: 10px!important;
+}
+
+#toast-container .toast {
+    min-width: 300px !important;
+    width: auto !important;
+}
+
+.form-control-sm{
+    height: 25px!important;
+}
+
+.datePic {
+    cursor: pointer;
+}
+select{
+    cursor: pointer;
+}
